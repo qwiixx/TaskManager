@@ -13,11 +13,9 @@ LAUNCH:
 1. setup python 3.10+
 2. git clone https://github.com/qwiixx/TaskManager.git
 3. python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-4. uvicorn app.main:app --reload
+4. source venv/bin/activate   # Linux/macOS or venv\Scripts\activate      # Windows
+5. pip install -r requirements.txt
+6. uvicorn app.main:app --reload
 
 
 Swagger-docs: after launch http://127.0.0.1:8000/docs
